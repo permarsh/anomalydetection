@@ -19,8 +19,9 @@ col1, col2 = st.columns([1, 4])
 
 # Inserimento dellogo nella prima colonna
 with col1:
-    logo_path = r'C:\Users\u1208854\OneDrive - MMC\Desktop\Documenti amministrativi\My Documents\Icon\LOGO MARSH_.jpg'
-    st.image(logo_path, width=80)
+   logo_url = "https://commons.wikimedia.org/wiki/File:Marsh_McLennan_logo.png"  # Sostituisci con l'URL reale
+   st.image(logo_url, width=80)
+
 
 # Inserimento del titolo nella seconda colonna
 with col2:
