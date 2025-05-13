@@ -20,7 +20,7 @@ col1, col2 = st.columns([1, 4])
 # Inserimento dellogo nella prima colonna
 with col1:
    logo_url = "https://logowik.com/content/uploads/images/marsh9653.jpg"  # Sostituisci con l'URL reale
-   st.image(logo_url, width=80)
+   st.image(logo_url, width=180)
 
 
 # Inserimento del titolo nella seconda colonna
